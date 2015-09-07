@@ -63,7 +63,7 @@ public class VarastoTest {
 
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
 		// rikon taman (korjasin)
-        assertEquals(3, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 	
     @Test
